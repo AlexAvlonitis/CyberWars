@@ -42,6 +42,12 @@ class Emails
 	end
 end
 
+class Targets
+	def enter()
+
+	end
+end
+
 
 
 
