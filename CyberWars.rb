@@ -1,6 +1,7 @@
-require "./assets/modules/Commands.rb"
+
 
 class MainPC
+	require "./assets/modules/Commands.rb"
 	def enter()
 		puts "HackOS is booting up...\nplease wait"
 		sleep(3) #Add a booting up illusion

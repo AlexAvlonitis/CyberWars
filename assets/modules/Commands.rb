@@ -6,6 +6,6 @@ module Commands
 	end	
 
 	def self.commands
-		puts "To find the open ports of a remote host, \nType: portscan <hostname Or Ip of the target>, eg. portscan 32.134.12.3"
+		puts "(1)To find the open ports of a remote host, \n   Type: portscan <hostname Or Ip of the target>, eg. portscan 32.134.12.3"
 	end
 end

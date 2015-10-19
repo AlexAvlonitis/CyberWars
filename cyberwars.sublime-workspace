@@ -1,0 +1,277 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"b",
+				"block"
+			],
+			[
+				"eac",
+				"eachHour"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"is",
+				"is_integer"
+			],
+			[
+				"displa",
+				"display_balance"
+			],
+			[
+				"pi",
+				"pin_number"
+			],
+			[
+				"pin",
+				"pin_check"
+			],
+			[
+				"user",
+				"user_params"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/it_alex/Desktop/CyberWars"
+	],
+	"file_history":
+	[
+		"/C/Users/it_alex/Desktop/test.rb",
+		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/production.rb",
+		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/Gemfile",
+		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/development.rb",
+		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/application.yml",
+		"/H/railscms/config/initializers/envs.rb",
+		"/H/railscms/app/controllers/devise/passwords_controller.rb",
+		"/H/railscms/.gitignore",
+		"/H/railscms/app/controllers/devise/registrations_controller.rb",
+		"/H/railscms/app/views/layouts/application.html.erb",
+		"/H/railscms/config/routes.rb",
+		"/H/railscms/app/views/devise/registrations/edit.html.erb",
+		"/H/railscms/config/environments/development.rb",
+		"/H/railscms/Gemfile",
+		"/H/railscms/app/views/devise/passwords/new.html.erb",
+		"/H/railscms/Procfile",
+		"/H/railscms/.env",
+		"/H/railscms/app/views/devise/sessions/new.html.erb",
+		"/H/railscms/app/controllers/application_controller.rb",
+		"/H/railscms/app/views/devise/registrations/new.html.erb",
+		"/H/railscms/app/controllers/devise/unlocks_controller.rb",
+		"/H/railscms/app/controllers/devise/sessions_controller.rb",
+		"/H/railscms/app/controllers/devise/omniauth_callbacks_controller.rb",
+		"/H/railscms/app/controllers/devise_controller.rb",
+		"/H/railscms/app/controllers/devise/confirmations_controller.rb",
+		"/H/railscms/app/mailers/user_mailer.rb",
+		"/H/railscms/app/views/clients/index.html.erb",
+		"/H/railscms/app/views/home/index.html.erb",
+		"/H/railscms/db/migrate/20150909191316_create_users.rb",
+		"/H/railscms/app/controllers/clients_controller.rb",
+		"/H/railscms/app/models/user.rb",
+		"/H/railscms/app/models/client.rb",
+		"/H/railscms/db/migrate/20150918105653_add_devise_to_users.rb",
+		"/H/railscms/db/migrate/20150912202129_create_clients.rb",
+		"/H/railscms/app/controllers/payments_controller.rb",
+		"/H/railscms/app/controllers/users_controller.rb",
+		"/H/railscms/app/views/user_mailer/welcome_email.html.erb",
+		"/H/railscms/app/views/clients/show.html.erb",
+		"/H/railscms/app/views/payments/edit.html.erb",
+		"/H/railscms/app/views/payments/index.html.erb",
+		"/H/railscms/app/views/users/index.html.erb",
+		"/H/railscms/app/views/payments/new.html.erb",
+		"/H/railscms/app/views/clients/edit.html.erb",
+		"/H/railscms/app/views/users/edit.html.erb",
+		"/H/railscms/app/views/payments/show.html.erb",
+		"/H/railscms/db/seeds.rb",
+		"/H/railscms/db/migrate/20150913120659_create_payments.rb",
+		"/H/railscms/app/views/users/new.html.erb",
+		"/H/railscms/app/views/sessions/new.html.erb",
+		"/H/railscms/app/views/shared/_error_messages.html.erb",
+		"/H/railscms/app/views/users/show.html.erb",
+		"/H/railscms/app/controllers/sessions_controller.rb",
+		"/H/railscms/app/views/users/profile.html.erb",
+		"/home/alex/Desktop/railscms/Gemfile",
+		"/home/alex/Desktop/railscms/app/assets/stylesheets/application.css.sass",
+		"/home/alex/Desktop/railscms/app/views/home/index.html.erb",
+		"/C/Users/it_alex/Desktop/railscms/app/assets/javascripts/application.js",
+		"/C/Users/it_alex/Desktop/railscms/config/database.yml",
+		"/C/Users/it_alex/Desktop/railscms/config/routes.rb",
+		"/C/Users/it_alex/Desktop/railscms/vendor/assets/javascripts/bootstrap.js",
+		"/C/Users/it_alex/Desktop/railscms/app/assets/stylesheets/application.css",
+		"/C/Users/it_alex/Desktop/railscms/vendor/assets/stylesheets/bootstrap.min.css"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\it_alex\\Desktop\\RADocDhortcuts\\railscms",
+			"H:\\railscms"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"t ",
+			"t",
+			"==",
+			"def validPhoneNumber(phoneNumber)\n    a = phoneNumber.split(\"\")\n\n    if a[0] == \"(\" && Integer(a[1]) && Integer(a[2]) && Integer(a[3]) && a[4] == \")\" && a[5] == \" \" && Integer(a[6]) && Integer(a[7]) && Integer(a[8]) && a[9] == \"-\" && Integer(a[10]) && Integer(a[11]) && Integer(a[12]) && Integer(a[13])\n        print true\n    else\n        print false\n    end\n\nend",
+			"first",
+			"production.rb",
+			"environment.rb",
+			"sign_up",
+			"actionmailer::base",
+			"end",
+			">\n",
+			"%>\n",
+			"profile.html.erb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cyberwars.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
