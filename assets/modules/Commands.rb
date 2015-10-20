@@ -46,24 +46,61 @@ module MyPcCommands
 		puts ""
 		puts "-From: Secret Client-31"
 		puts "-Subject: Need Cash?"
-		puts "-Body: Hello,\nI've heard you are one of the best in the field that's why i want to offer you a job."
+		puts "-Body: Hello,\nI've heard you are one of the best in the field, that's why i want to offer you a job."
 		puts "I will need you to break into this server: server21.contoso.com,"
-		puts "find their client details and send them to me.\nI trust your skills and your payment will be 5000$."
+		puts "find their customer details and send them back to me.\nI trust your skills and your payment will be 5000$."
 		puts ""
 	end
 end
 
 module TargetCommands
 
+	@@folder = ""
+
+	def self.get
+    	@@folder
+  	end
+
+	def self.cdBack
+		if (@@folder == "") || (@@folder == "Myclients")  || (@@folder == "funny_pictures") 
+			puts @@folder = ""
+		else 
+			puts "something went wrong"
+		end			
+	end
+
 	def self.ls
-		puts ""
-		puts "Name:Myclients    Type:Folder     Size:5k   Date_Modified:#{Time.now} "
-		puts ""
+		if @@folder == ""
+			puts ""
+			puts "Name: Myclients    Type: Folder     Size: 5k   Date_Modified: 03/08/2015 "
+			puts "Name: funny_pictures    Type: Folder     Size: 0k   Date_Modified: 02/02/2012 "
+			puts ""
+		elsif @@folder == "Myclients"
+			puts ""
+			puts "Name: client_personal_details.xlsx     Type: Excel     Size: 1024k   Date_Modified: 03/08/2015"
+			puts ""
+		elsif @@folder == "funny_pictures"
+			puts ""
+			puts "-Empty-"
+			puts ""
+		else 
+			puts "something went wrong"
+		end
 	end	
 
-	def self.cd 
+	def self.cdMyclients
+		@@folder = "Myclients"
+	end
+
+	def self.cdFunnyPictures
+		@@folder = "funny_pictures"
+	end
+
+	def self.help
 		puts ""
-		puts "clients"
+		puts "(1) To list all files and folders in your current directory, Type: ls"
+		puts "(2) To change folder, Type: cd <folder name>, eg. cd folder1. And to go back to the previous folder type: cd.."
+		puts "(3) To disconnect from the host, Type: disconnect"
 		puts ""
 	end
 

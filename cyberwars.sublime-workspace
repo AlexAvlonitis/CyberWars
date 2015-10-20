@@ -8,16 +8,16 @@
 				"TargetCommands"
 			],
 			[
-				"new",
-				"newgame"
+				"Pas",
+				"PASSWORD"
 			],
 			[
-				"next",
-				"next_scene"
+				"end",
+				"endLoop2"
 			],
 			[
-				"ne",
-				"newmap"
+				"sub",
+				"subcommands"
 			],
 			[
 				"b",
@@ -59,16 +59,16 @@
 			"file": "CyberWars.rb",
 			"settings":
 			{
-				"buffer_size": 3279,
-				"line_ending": "Windows"
+				"buffer_size": 3683,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "assets/modules/Commands.rb",
 			"settings":
 			{
-				"buffer_size": 1595,
-				"line_ending": "Windows"
+				"buffer_size": 2763,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -104,12 +104,13 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/it_alex/Desktop/CyberWars",
-		"/C/Users/it_alex/Desktop/CyberWars/assets",
-		"/C/Users/it_alex/Desktop/CyberWars/assets/modules"
+		"/home/alex/Desktop/Ruby/hackos",
+		"/home/alex/Desktop/Ruby/hackos/assets",
+		"/home/alex/Desktop/Ruby/hackos/assets/modules"
 	],
 	"file_history":
 	[
+		"/home/alex/Desktop/Ruby/hackos/assets/modules/Missions.rb",
 		"/C/Users/it_alex/Desktop/test.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/production.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/Gemfile",
@@ -191,7 +192,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"forget",
 			"t ",
 			"t",
 			"==",
@@ -222,7 +222,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -231,15 +231,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3279,
+						"buffer_size": 3683,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1664,
-								1664
+								1575,
+								1575
 							]
 						],
 						"settings":
@@ -248,10 +248,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 519.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -260,27 +260,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1595,
+						"buffer_size": 2763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								1595
+								1459,
+								1459
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 171.0,
+						"translation.y": 357.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
