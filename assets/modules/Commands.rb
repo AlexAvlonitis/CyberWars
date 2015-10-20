@@ -9,7 +9,7 @@ module MyPcCommands
 
 	def self.commands
 		puts ""
-		puts "(1)To find the open ports of a remote host,\nType: portscan <hostname Or Ip of the target>, eg. portscan 32.134.12.3"
+		puts "(1)To find open ports of a remote host,\nType: portscan <hostname Or Ip of the target>, eg. portscan 32.134.12.3"
 		puts ""
 		puts "(2)To connect to a remote server,\nType: connect <hostname or IP> <port number>, eg. connect 32.2.13.4 1234"
 		puts ""
@@ -29,8 +29,15 @@ module MyPcCommands
 
 	def self.bruteforce
 		puts ""
-		puts "Bruteforcing {@pcname} 21, this might take a while..."
-		puts "#{rand(10)}"
+		puts "Bruteforcing server21.contoso.com, this might take a while..."
+		puts ""
+		(1..10).each do 
+			puts (0...50).map { ('a'..'z').to_a[rand(26)] }.join
+			sleep(1)
+		end
+		puts "Password cracked!:"
+		puts TargetCommands::PASSWORD
+		puts ""
 	end
 
 	def self.emails
@@ -39,7 +46,7 @@ module MyPcCommands
 		puts ""
 		puts "-From: Secret Client-31"
 		puts "-Subject: Need Cash?"
-		puts "-Body: Hello,\nI've heard you are one of the best in the field and i would need your help."
+		puts "-Body: Hello,\nI've heard you are one of the best in the field that's why i want to offer you a job."
 		puts "I will need you to break into this server: server21.contoso.com,"
 		puts "find their client details and send them to me.\nI trust your skills and your payment will be 5000$."
 		puts ""
@@ -60,7 +67,7 @@ module TargetCommands
 		puts ""
 	end
 
-	PASSWORD = 'noaccess'
+	PASSWORD = 'superhardpassword'
 
 	
 end

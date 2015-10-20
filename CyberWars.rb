@@ -51,10 +51,11 @@ class MyPC < PC
 				when "commands" then MyPcCommands.commands 
 			    when "emails" then MyPcCommands.emails
 			    when "connect server21.contoso.com 21" then return 'target' ;
-			    when "connect server21.contoso.com 80" then puts "Can't connect, the remote host is either blocking our connection or a service is not running on that port";
+			    when "connect server21.contoso.com 80" then puts "\nCan't connect, the remote host is either blocking the connection or a service is not running on that port";
 			    when "portscan server21.contoso.com 21" then MyPcCommands.portscan ;
-			    when "portscan server21.contoso.com 80" then puts "Scan failed, the remote host is either blocking our scan or a service is not running on that port" ;
-			    when "bruteforce server21.contoso.com 21" then MyPcCommands.portscan ;
+			    when "portscan server21.contoso.com 80" then puts "\nScan failed, the remote host is either blocking the scan or a service is not running on that port" ;
+			    when "bruteforce server21.contoso.com 21" then MyPcCommands.bruteforce ;
+			    when "bruteforce server21.contoso.com 80" then puts "\nBruteForcing failed, the remote host is either blocking the scan or a service is not running on that port" ;
 			    when "exit" then exit ;
 			else
 				puts "Wrong input, try again"
@@ -83,34 +84,37 @@ class Target < PC
 			puts "Connecting to #{@pcname}...\nplease wait"
 			sleep(2) #Add a loading illusion
 			puts ""
-			puts "Enter password to login:"
-			pass = gets.chomp
-			if pass == TargetCommands::PASSWORD
-				puts "Welcome Admin"
-				endLoop = 0 
-				while endLoop == 0
-					puts ""
-					puts "To list folders, Type: ls"
-					puts "To change folder, Type: cd <folder name>, eg. cd folder1"
-					puts "To disconnect from the host, Type: disconnect"
-					puts ""
-					print "root@#{@pcname}:#/ "
-					option = gets.chomp
-					case option
-						when "ls" then TargetCommands.ls ;
-						when "cd Myclients" then TargetCommands.cd ;
-					    when "cd " then puts "The folder name is case sensitive";
-					    when "disconnect" then return 'mypc' ;
-					else
+			endLoop2 = 0
+			while endLoop2 < 3
+				puts "Enter password to login:"
+				pass = gets.chomp			
+				if pass == TargetCommands::PASSWORD
+					puts "Welcome Admin"
+					endLoop = 0 
+					while endLoop == 0
 						puts ""
-						puts "Wrong input, try again"
+						puts "To list folders, Type: ls"
+						puts "To change folder, Type: cd <folder name>, eg. cd folder1"
+						puts "To disconnect from the host, Type: disconnect"
+						puts ""
+						print "root@#{@pcname}:#/ "
+						option = gets.chomp
+						case option
+							when "ls" then TargetCommands.ls ;
+							when "cd Myclients" then TargetCommands.cd ;
+						    when "cd " then puts "The folder name is case sensitive";
+						    when "disconnect" then return 'mypc' ;
+						else
+							puts ""
+							puts "Wrong input, try again"
+						end
 					end
+				else
+					puts ""
+					puts "Wrong password. try again, you have #{3 - endLoop2 += 1} tries left."					
 				end
-			else
-				puts ""
-				puts "Wrong password. disconnecting..."
-				return 'mypc'
 			end
+			return 'mypc'
 		end
 	end
 end
