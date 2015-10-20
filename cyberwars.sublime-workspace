@@ -4,8 +4,20 @@
 		"selected_items":
 		[
 			[
-				"sub",
-				"subcommands"
+				"Tar",
+				"TargetCommands"
+			],
+			[
+				"new",
+				"newgame"
+			],
+			[
+				"next",
+				"next_scene"
+			],
+			[
+				"ne",
+				"newmap"
 			],
 			[
 				"b",
@@ -47,16 +59,16 @@
 			"file": "CyberWars.rb",
 			"settings":
 			{
-				"buffer_size": 1091,
-				"line_ending": "Unix"
+				"buffer_size": 3279,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "assets/modules/Commands.rb",
 			"settings":
 			{
-				"buffer_size": 1042,
-				"line_ending": "Unix"
+				"buffer_size": 1595,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -92,9 +104,9 @@
 	},
 	"expanded_folders":
 	[
-		"/home/alex/Desktop/Ruby/hackos",
-		"/home/alex/Desktop/Ruby/hackos/assets",
-		"/home/alex/Desktop/Ruby/hackos/assets/modules"
+		"/C/Users/it_alex/Desktop/CyberWars",
+		"/C/Users/it_alex/Desktop/CyberWars/assets",
+		"/C/Users/it_alex/Desktop/CyberWars/assets/modules"
 	],
 	"file_history":
 	[
@@ -179,6 +191,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"forget",
 			"t ",
 			"t",
 			"==",
@@ -209,7 +222,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -218,15 +231,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1091,
+						"buffer_size": 3279,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								884,
-								884
+								1664,
+								1664
 							]
 						],
 						"settings":
@@ -235,10 +248,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 519.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -247,26 +260,27 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1042,
+						"buffer_size": 1595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								329,
-								329
+								0,
+								1595
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 171.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
