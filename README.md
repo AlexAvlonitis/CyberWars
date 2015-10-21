@@ -1,5 +1,7 @@
 # CyberWars
 A simple classic text mode game in Ruby, where you are a hired hacker.
+1 mission available at the moment.
 
-Game in progress, practising OOP Ruby.
-You are a hired hacker and you get jobs from your clients 
+Practising OOP Ruby.
+
+Inspired by: http://learnrubythehardway.org/book/ex43.html
