@@ -1,3 +1,5 @@
+require "./assets/modules/Commands.rb"
+
 class PC
 	def enter()
 	    puts "This scene is not yet configured. Subclass it and implement enter()."

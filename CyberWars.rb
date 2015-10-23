@@ -1,6 +1,4 @@
-require "./assets/modules/Commands.rb"
 require "./assets/classes/Classes.rb"
-
 
 
 newmap = Map.new('mypc')

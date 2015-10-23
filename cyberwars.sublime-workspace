@@ -8,16 +8,16 @@
 				"TargetCommands"
 			],
 			[
-				"Pas",
-				"PASSWORD"
+				"new",
+				"newgame"
 			],
 			[
-				"end",
-				"endLoop2"
+				"next",
+				"next_scene"
 			],
 			[
-				"sub",
-				"subcommands"
+				"ne",
+				"newmap"
 			],
 			[
 				"b",
@@ -56,19 +56,19 @@
 	"buffers":
 	[
 		{
-			"file": "CyberWars.rb",
+			"file": "assets/classes/Classes.rb",
 			"settings":
 			{
-				"buffer_size": 3683,
-				"line_ending": "Unix"
+				"buffer_size": 4188,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "assets/modules/Commands.rb",
+			"file": "CyberWars.rb",
 			"settings":
 			{
-				"buffer_size": 2763,
-				"line_ending": "Unix"
+				"buffer_size": 109,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -104,13 +104,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/alex/Desktop/Ruby/hackos",
-		"/home/alex/Desktop/Ruby/hackos/assets",
-		"/home/alex/Desktop/Ruby/hackos/assets/modules"
+		"/C/Users/it_alex/Desktop/CyberWars",
+		"/C/Users/it_alex/Desktop/CyberWars/assets"
 	],
 	"file_history":
 	[
-		"/home/alex/Desktop/Ruby/hackos/assets/modules/Missions.rb",
+		"/C/Users/it_alex/Desktop/CyberWars/assets/modules/Commands.rb",
+		"/C/Users/it_alex/Desktop/CyberWars/CyberWars.rb",
+		"/C/Users/it_alex/Desktop/CyberWars/README.md",
 		"/C/Users/it_alex/Desktop/test.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/production.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/Gemfile",
@@ -192,6 +193,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"forget",
 			"t ",
 			"t",
 			"==",
@@ -227,19 +229,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "CyberWars.rb",
+					"file": "assets/classes/Classes.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3683,
+						"buffer_size": 4188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1575,
-								1575
+								39,
+								39
 							]
 						],
 						"settings":
@@ -256,19 +258,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "assets/modules/Commands.rb",
+					"file": "CyberWars.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2763,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1459,
-								1459
+								38,
+								38
 							]
 						],
 						"settings":
@@ -276,7 +278,7 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
