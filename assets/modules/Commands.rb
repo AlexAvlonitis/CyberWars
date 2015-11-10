@@ -61,14 +61,14 @@ end
 
 module TargetCommands
 
-	@@folder = ""
+	@folder = ""
 
 	def self.get
-    	@@folder
+    	@folder
   	end
 
 	def self.cdBack
-		if (@@folder == "") || (@@folder == "Myclients")  || (@@folder == "funny_pictures") 
+		if (@folder == "") || (@folder == "Myclients")  || (@folder == "funny_pictures") 
 			puts @@folder = ""
 		else 
 			puts "something went wrong"
@@ -76,16 +76,16 @@ module TargetCommands
 	end
 
 	def self.ls
-		if @@folder == ""
+		if @folder == ""
 			puts ""
 			puts "Name: Myclients    Type: Folder     Size: 5k   Date_Modified: 03/08/2015 "
 			puts "Name: funny_pictures    Type: Folder     Size: 0k   Date_Modified: 02/02/2012 "
 			puts ""
-		elsif @@folder == "Myclients"
+		elsif @folder == "Myclients"
 			puts ""
 			puts "Name: client_personal_details.xlsx     Type: Excel     Size: 1024k   Date_Modified: 03/08/2015"
 			puts ""
-		elsif @@folder == "funny_pictures"
+		elsif @folder == "funny_pictures"
 			puts ""
 			puts "-Empty-"
 			puts ""
@@ -95,11 +95,11 @@ module TargetCommands
 	end	
 
 	def self.cdMyclients
-		@@folder = "Myclients"
+		@folder = "Myclients"
 	end
 
 	def self.cdFunnyPictures
-		@@folder = "funny_pictures"
+		@folder = "funny_pictures"
 	end
 
 	def self.eraseLogs
@@ -109,13 +109,13 @@ module TargetCommands
 		puts ""
 		puts "Logs have been erased, Disconnect immediately!"
 		puts ""
-		if @@track >= 1 #it becomes 1 only if he sends the file back to his computer
+		if @track >= 1 #it becomes 1 only if he sends the file back to his computer
 			return @@completed = 1 #it return 1 and when he disconnects then he wins
 		end
 	end
 
 	def self.cat
-		if @@folder == "Myclients"
+		if @folder == "Myclients"
 			puts ""
 			puts "Clients Personal Details"
 			puts "NAME\t\tEMAIL\t\t\tCREDIT_CARD_INFO"
@@ -131,15 +131,15 @@ module TargetCommands
 		end
 	end
 
-	@@track = 0 #To track the objective progress
-	@@completed = 0 #if 1 then you completed the mission
+	@track = 0 #To track the objective progress
+	@completed = 0 #if 1 then you completed the mission
 
 	def self.getCompleted
-		@@completed
+		@completed
 	end
 
 	def self.cryptosend
-		if @@folder == "Myclients"
+		if @folder == "Myclients"
 			puts ""
 			puts "Connecting to hackOS..."
 			sleep(1)
@@ -151,7 +151,7 @@ module TargetCommands
 			puts "closing connection..."
 			sleep(1)
 			puts ""
-			@@track += 1
+			@track += 1
 		else
 			puts "wrong input"
 		end

@@ -56,18 +56,18 @@
 	"buffers":
 	[
 		{
-			"file": "assets/classes/Classes.rb",
-			"settings":
-			{
-				"buffer_size": 4188,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "CyberWars.rb",
 			"settings":
 			{
 				"buffer_size": 109,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/modules/Commands.rb",
+			"settings":
+			{
+				"buffer_size": 4491,
 				"line_ending": "Windows"
 			}
 		}
@@ -105,14 +105,17 @@
 	"expanded_folders":
 	[
 		"/C/Users/it_alex/Desktop/CyberWars",
-		"/C/Users/it_alex/Desktop/CyberWars/assets"
+		"/C/Users/it_alex/Desktop/CyberWars/assets",
+		"/C/Users/it_alex/Desktop/CyberWars/assets/classes",
+		"/C/Users/it_alex/Desktop/CyberWars/assets/modules"
 	],
 	"file_history":
 	[
+		"/C/Users/it_alex/Desktop/test.rb",
+		"/C/Users/it_alex/Desktop/CyberWars/assets/classes/Classes.rb",
 		"/C/Users/it_alex/Desktop/CyberWars/assets/modules/Commands.rb",
 		"/C/Users/it_alex/Desktop/CyberWars/CyberWars.rb",
 		"/C/Users/it_alex/Desktop/CyberWars/README.md",
-		"/C/Users/it_alex/Desktop/test.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/production.rb",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/Gemfile",
 		"/C/Users/it_alex/Desktop/RADocDhortcuts/railscms/config/environments/development.rb",
@@ -224,24 +227,52 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "assets/classes/Classes.rb",
+					"file": "CyberWars.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4188,
+						"buffer_size": 109,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								108,
+								108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "assets/modules/Commands.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3615,
+								3615
 							]
 						],
 						"settings":
@@ -254,34 +285,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "CyberWars.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 109,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								38,
-								38
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
