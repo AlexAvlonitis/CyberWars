@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"my",
+				"my_name"
+			],
+			[
 				"Tar",
 				"TargetCommands"
 			],
@@ -55,22 +59,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "CyberWars.rb",
-			"settings":
-			{
-				"buffer_size": 109,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/modules/Commands.rb",
-			"settings":
-			{
-				"buffer_size": 4491,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -104,13 +92,15 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/it_alex/Desktop/CyberWars",
-		"/C/Users/it_alex/Desktop/CyberWars/assets",
-		"/C/Users/it_alex/Desktop/CyberWars/assets/classes",
-		"/C/Users/it_alex/Desktop/CyberWars/assets/modules"
+		"/C/Users/Alex/Desktop/CyberWars",
+		"/C/Users/Alex/Desktop/CyberWars/assets"
 	],
 	"file_history":
 	[
+		"/C/Users/Alex/Desktop/CyberWars/CyberWars.rb",
+		"/C/Users/Alex/Desktop/CyberWars/assets/classes/Classes.rb",
+		"/C/Users/Alex/Desktop/CyberWars/assets/modules/Commands.rb",
+		"/C/Users/Alex/Desktop/test.rb",
 		"/C/Users/it_alex/Desktop/test.rb",
 		"/C/Users/it_alex/Desktop/CyberWars/assets/classes/Classes.rb",
 		"/C/Users/it_alex/Desktop/CyberWars/assets/modules/Commands.rb",
@@ -227,66 +217,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "CyberWars.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 109,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								108,
-								108
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "assets/modules/Commands.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4491,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3615,
-								3615
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -321,6 +253,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 130.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0

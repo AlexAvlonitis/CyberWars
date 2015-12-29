@@ -1,7 +1,7 @@
 require "./assets/modules/Commands.rb"
 
 class PC
-	def enter()
+	def enter
 	    puts "This scene is not yet configured. Subclass it and implement enter()."
 	    exit(1)
     end
@@ -12,7 +12,7 @@ class Engine
     @scene_map = scene_map
   end
 
-  def play()
+  def play
     current_scene = @scene_map.opening_scene
     last_scene = @scene_map.next_scene('completed')
 
@@ -27,9 +27,11 @@ end
 
 
 class MyPC < PC
-	def initialize(pcname="hackOS", name="Anonymous")
-		@pcname = pcname
-		@name = name
+
+	def initialize
+		@pcname = "hackOS"
+		puts "First enter your name:"
+		@name = gets.chomp
 	end
 
 	def enter
@@ -68,7 +70,7 @@ class MyPC < PC
 end
 
 class Completed < PC
-	def enter()
+	def enter
 		puts ""
 		puts "--==|| CONGRATULATIONS YOUR FINISHED YOUR MISSION ||==--"
 		sleep(2)
@@ -141,7 +143,7 @@ class Map
 		'target' => Target.new,
 		'completed' => Completed.new
 	}
-
+	
 	def initialize(place)
 		@place = place
 	end
